@@ -1,3 +1,5 @@
 This is lisenced as CC0.
 
-See `.readthedocs.yaml` for build doc.
+`build` contains local build results.
+
+See `.readthedocs.yaml` for detail.

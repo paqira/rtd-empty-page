@@ -5,7 +5,5 @@ build:
   tools:
     python: latest
   commands:
-    - pip install sphinx sphinx_book_theme myst_nb
-    - sphinx-build -b html ./doc/source ./doc/build/html
     - mkdir --parents $READTHEDOCS_OUTPUT
-    - mv doc/build/html $READTHEDOCS_OUTPUT/html
+    - mv build/html $READTHEDOCS_OUTPUT/html
